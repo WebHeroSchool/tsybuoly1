@@ -1,3 +1,39 @@
 body {
  font-family: Roboto;
+/* .margin: 0;
+ border: dashed 1px red;*/
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper{
+  margin: auto;
+  width: 80%;
+  /*border: dashed 1px red;*/
+  }
+  .logo, .menu{
+    display: inline-block;
+    /*border: dashed 1px red;*/
+  }
+  .logo{
+    /*margin-right: 63%;*/
+    padding: 40px 0;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+  }
+  .menu__item {
+    padding: 0 13px;
+    /*border: dashed 1px red;*/
+  }
+  .menu__item:last-child {
+    padding-right: 0;
+  }
+
+/*.main-section{
+  margin:auto;
+  width: 80%
+  border: dashed 1px red;
+} */
